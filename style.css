@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Maze&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+  font-family: "Rubik Maze", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 70px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+
+body {
+     background-color: #83aedb;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.spaceBetween {
+    justify-content: space-between;
+}
+
+.btn{
+    text-decoration: none;
+    color: black;
+    list-style: none;
+    box-shadow: 2px 2px 7px #213448;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.635);
+    padding: 15px 30px;
+}
+
+.top20 {
+    margin-top: 20px;
+}
+
+.top30 {
+    margin-top: 30px;
+}
+
+.top50 {
+    margin-top: 50px ;
+}
+
+.top100{
+    margin-top: 100px;
+}
+
+.w20{
+    width: 20% ;
+}
+
+.w50{
+    width: 50% ;
+}
+
+.container{
+    margin:50px;
+}
+
+.alignCenter{
+    align-items: center;
+}
+
+.textAlign{
+    text-align: center;
+}
+
+.left{
+   margin-left: 80%;
+}
+
+.paddingRight {
+    padding-right: 60px;
+}
+
+.padding{
+    padding: 50px;
+}
+
+.bgColor{
+    background-color: rgb(88, 9, 9);
+}
+
+.inline{
+display: inline-block;
+}
+
