@@ -7,51 +7,56 @@
 //6: possibilité de rejouer
 
 
-//Créer une boucle qui compare la réponse de l'utilisateur à la réponse attendue
-//Créer une fonction afficher 
-//Créer une fonction question suivante pour afficher la question suivante
-
-
 //Créer un tableau qui stock les questions et les réponses
 
 let qst = [
         {
             question: "Quel est le panneau piste cyclable ?",
-            r: "a",
+            a:"panneau a",
+            b:"panneau b",
+            c:"panneau c",
+            d:"panneau d",
+            r:"a"
         },
 
         {
             question: "Le panneau est une obligation de tourner à gauche",
-            r: "c",
+            a:"b",
+            b:"c",
+            r:"b"
         },
 
         {
             question: "Êtes vous prioritaire dans cette situation ?",
-            r: "non",
+            a:"oui",
+            b:"non",
+            r:"b"
         },
 
         {
             question: "Sans présence de panneau de vitesse a combien êtes vous autorisé à rouler ?",
-            r: "80 km/h"
+            a:"50 km/h",
+            b:"60 km/h",
+            c:"70 km/h",
+            d:"80 km//h",
+            r:"d"
         },
 
         {
             question: "Quel est le mot manquant sur le panneau ?",
-            r: "gendarmerie"
+            a:"Gendarmerie",
+            b:"Garderie",
+            c:"Prison",
+            r:"a"
         },
     ]
     
-
-
-//Créer une variable qui va stocker la réponse utilisateur via un prompt
 
 
 
 //role: afficher la question et la réponse
 //paramètre: le tableau qst
 //retourne: rien
-
-
 
 function quizz() {
     qst.forEach(question => {
